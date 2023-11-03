@@ -1,0 +1,12 @@
+{
+  "name": "chrome_tempo",
+  "version": "1.0.0",
+  "description": "Track time spent in Chrome and report it to Tempo in Jira",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["tempo", "jira", "chrome"],
+  "author": "risinek",
+  "license": "ISC"
+}

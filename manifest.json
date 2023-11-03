@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Tempo",
+  "description": "Track time spent in Chrome and report it to Tempo in Jira",
+  "version": "0.1",
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "permissions": ["idle", "alarms"],
+  "host_permissions": ["https://api.tempo.io/*"]
+}
